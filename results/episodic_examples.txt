@@ -1,0 +1,47 @@
+subject 2, window 76 (25% into session): now LAY, actual in 5.1 s WALK; persistence LAY, script-position LAY, memory (1 per person) WALK
+  retrieved moments (subject, window, distance, what happened next):
+    subject 27 window  295  dist   12.24  -> WALK
+    subject 30 window  290  dist   13.67  -> WALK
+    subject 26 window  305  dist   13.87  -> WALK
+    subject 19 window  265  dist   14.02  -> LAY
+    subject  7 window  230  dist   14.21  -> WALK
+
+subject 2, window 77 (25% into session): now LAY, actual in 5.1 s WALK; persistence LAY, script-position LAY, memory (1 per person) WALK
+  retrieved moments (subject, window, distance, what happened next):
+    subject 27 window  296  dist   11.63  -> WALK
+    subject 22 window  238  dist   14.21  -> LAY
+    subject  7 window  230  dist   14.38  -> WALK
+    subject 26 window  306  dist   14.46  -> WALK
+    subject 30 window  290  dist   14.85  -> WALK
+
+subject 2, window 254 (84% into session): now WALK, actual in 5.1 s DOWNSTAIRS; persistence WALK, script-position WALK, memory (1 per person) DOWNSTAIRS
+  retrieved moments (subject, window, distance, what happened next):
+    subject  3 window  288  dist   25.34  -> DOWNSTAIRS
+    subject 21 window  145  dist   27.51  -> WALK
+    subject  1 window  266  dist   27.89  -> WALK
+    subject  5 window  254  dist   27.97  -> DOWNSTAIRS
+    subject  6 window  115  dist   28.73  -> DOWNSTAIRS
+
+subject 2, window 276 (91% into session): now DOWNSTAIRS, actual in 5.1 s UPSTAIRS; persistence DOWNSTAIRS, script-position UPSTAIRS, memory (1 per person) UPSTAIRS
+  retrieved moments (subject, window, distance, what happened next):
+    subject 28 window  357  dist   42.12  -> UPSTAIRS
+    subject 19 window  157  dist   43.30  -> UPSTAIRS
+    subject 22 window  114  dist   45.26  -> WALK
+    subject  3 window  137  dist   45.82  -> UPSTAIRS
+    subject  8 window  112  dist   46.19  -> UPSTAIRS
+
+subject 4, window 26 (8% into session): now STAND, actual in 5.1 s SIT; persistence STAND, script-position SIT, memory (1 per person) SIT
+  retrieved moments (subject, window, distance, what happened next):
+    subject  6 window   28  dist   13.17  -> SIT
+    subject 17 window  231  dist   14.77  -> SIT
+    subject 28 window  268  dist   15.11  -> SIT
+    subject  5 window  181  dist   15.12  -> STAND
+    subject 26 window  207  dist   15.38  -> STAND
+
+subject 4, window 135 (43% into session): now DOWNSTAIRS, actual in 5.1 s UPSTAIRS; persistence DOWNSTAIRS, script-position UPSTAIRS, memory (1 per person) UPSTAIRS
+  retrieved moments (subject, window, distance, what happened next):
+    subject  3 window  307  dist   23.32  -> DOWNSTAIRS
+    subject  6 window  105  dist   25.99  -> WALK
+    subject 22 window  149  dist   26.00  -> DOWNSTAIRS
+    subject 29 window  319  dist   26.55  -> UPSTAIRS
+    subject 26 window  141  dist   26.65  -> DOWNSTAIRS

@@ -1,0 +1,78 @@
+[order check: train]
+  subject  1:  347 windows, contiguous=True, label changes=14
+  subject  3:  341 windows, contiguous=True, label changes=11
+  subject  5:  302 windows, contiguous=True, label changes=11
+  subject  6:  325 windows, contiguous=True, label changes=11
+  subject  7:  308 windows, contiguous=True, label changes=11
+  subject  8:  281 windows, contiguous=True, label changes=11
+  subject 11:  316 windows, contiguous=True, label changes=11
+  subject 14:  323 windows, contiguous=True, label changes=11
+  subject 15:  328 windows, contiguous=True, label changes=11
+  subject 16:  366 windows, contiguous=True, label changes=11
+  subject 17:  368 windows, contiguous=True, label changes=16
+  subject 19:  360 windows, contiguous=True, label changes=15
+  subject 21:  408 windows, contiguous=True, label changes=15
+  subject 22:  321 windows, contiguous=True, label changes=13
+  subject 23:  372 windows, contiguous=True, label changes=15
+  subject 25:  409 windows, contiguous=True, label changes=11
+  subject 26:  392 windows, contiguous=True, label changes=13
+  subject 27:  376 windows, contiguous=True, label changes=11
+  subject 28:  382 windows, contiguous=True, label changes=13
+  subject 29:  344 windows, contiguous=True, label changes=11
+  subject 30:  383 windows, contiguous=True, label changes=13
+[order check: test]
+  subject  2:  302 windows, contiguous=True, label changes=11
+  subject  4:  317 windows, contiguous=True, label changes=11
+  subject  9:  288 windows, contiguous=True, label changes=16
+  subject 10:  294 windows, contiguous=True, label changes=11
+  subject 12:  320 windows, contiguous=True, label changes=11
+  subject 13:  327 windows, contiguous=True, label changes=11
+  subject 18:  364 windows, contiguous=True, label changes=16
+  subject 20:  354 windows, contiguous=True, label changes=11
+  subject 24:  381 windows, contiguous=True, label changes=13
+
+current-window classifier accuracy on test subjects: 0.955
+
+=== horizon 1 windows (1.3 s): 111 transition moments of 2911 ===
+method                         accuracy  trans acc    subj range  alarms  alarm prec
+persistence                       0.919      0.009     0.00-0.08       0         nan
+markov                            0.919      0.009     0.00-0.08       0         nan
+script_position                   0.846      0.378     0.09-1.00     515       0.082
+population_memory                 0.822      0.036     0.00-0.18     453       0.009
+population_memory_1perperson      0.850      0.045     0.00-0.19     388       0.013
+own_history_memory                0.645      0.009     0.00-0.06     986       0.001
+combined_memory                   0.844      0.018     0.00-0.09     407       0.005
+
+=== horizon 2 windows (2.6 s): 222 transition moments of 2902 ===
+method                         accuracy  trans acc    subj range  alarms  alarm prec
+persistence                       0.881      0.005     0.00-0.04       0         nan
+markov                            0.881      0.005     0.00-0.04       0         nan
+script_position                   0.845      0.414     0.14-0.95     511       0.180
+population_memory                 0.792      0.063     0.00-0.14     470       0.030
+population_memory_1perperson      0.820      0.068     0.00-0.22     402       0.037
+own_history_memory                0.597      0.027     0.00-0.12    1031       0.006
+combined_memory                   0.806      0.036     0.00-0.14     430       0.019
+
+=== horizon 4 windows (5.1 s): 444 transition moments of 2884 ===
+method                         accuracy  trans acc    subj range  alarms  alarm prec
+persistence                       0.810      0.014     0.00-0.03       0         nan
+markov                            0.810      0.014     0.00-0.03       0         nan
+script_position                   0.828      0.459     0.14-0.89     558       0.360
+population_memory                 0.717      0.135     0.02-0.27     572       0.098
+population_memory_1perperson      0.751      0.117     0.05-0.20     477       0.101
+own_history_memory                0.507      0.054     0.00-0.14    1125       0.020
+combined_memory                   0.726      0.097     0.00-0.23     524       0.076
+
+=== horizon 8 windows (10.2 s): 882 transition moments of 2848 ===
+method                         accuracy  trans acc    subj range  alarms  alarm prec
+persistence                       0.668      0.017     0.00-0.05       0         nan
+markov                            0.668      0.017     0.00-0.05       0         nan
+script_position                   0.831      0.617     0.30-0.99     771       0.696
+population_memory                 0.594      0.321     0.18-0.49     983       0.277
+population_memory_1perperson      0.600      0.280     0.10-0.41     868       0.271
+own_history_memory                0.337      0.139     0.05-0.26    1412       0.082
+combined_memory                   0.570      0.251     0.12-0.36     922       0.229
+
+wrote results/episodic_results.csv and results/episodic_examples.txt
+alarm precision = of the windows where a method predicts a change, the share where the
+activity really changes AND the method named the right new activity
